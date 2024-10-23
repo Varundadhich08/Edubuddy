@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUBUDDY - Your Academic Success Partner</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">EDUBUDDY</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#request">Request Help</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Your Academic Success Partner</h1>
+            <p>Get help with your homework, practical work, and understand difficult topics</p>
+            <a href="#request" class="cta-button">Request Help Now</a>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="/placeholder.svg?height=50&width=50" alt="Homework Help Icon" class="service-icon">
+                    <h3>Homework Help</h3>
+                    <p>Get assistance with your daily homework assignments across various subjects.</p>
+                </div>
+                <div class="service-card">
+                    <img src="/placeholder.svg?height=50&width=50" alt="Practical Work Icon" class="service-icon">
+                    <h3>Practical Work</h3>
+                    <p>Receive guidance on laboratory experiments, projects, and hands-on assignments.</p>
+                </div>
+                <div class="service-card">
+                    <img src="/placeholder.svg?height=50&width=50" alt="Topic Explanations Icon" class="service-icon">
+                    <h3>Topic Explanations</h3>
+                    <p>Request detailed explanations on specific topics you find challenging.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="request">
+            <h2>Request Academic Assistance</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="request-type">Request Type</label>
+                    <select id="request-type" name="request-type" required>
+                        <option value="" disabled selected>Select request type</option>
+                        <option value="homework">Homework Help</option>
+                        <option value="practical">Practical Work</option>
+                        <option value="topic">Topic Explanation</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" placeholder="Describe your request in detail" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EDUBUDDY. All rights reserved.</p>
+    </footer>
+</body>
+</html>
